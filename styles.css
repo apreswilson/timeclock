@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  height: 275px;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row-3 {
+  flex-direction: column;
+}
+
+.clock-in,
+.clock-out {
+  background-color: rgb(91, 186, 236);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  height: 115px;
+  width: 330px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.start-period,
+.end-period {
+
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  height: 115px;
+  width: 680px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.start-period,
+.clock-in {
+  background-color: rgb(91, 207, 236);
+}
+
+.end-period,
+.clock-out {
+  background-color: rgb(211, 68, 57);
+}
+
+.status-row {
+  width: 700px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
