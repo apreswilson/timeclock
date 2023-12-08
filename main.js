@@ -148,7 +148,7 @@ endPeriod.addEventListener("click", () => {
 
     let [periodStartMonth, periodStartDay, periodStartYear] = [startPeriodTime[3], startPeriodTime[4], startPeriodTime[5]];
 
-    const recipient = 'apreswilson@gmail.com';
+    const recipient = 'placeholderemail@gmail.com';
     const subject = `Hours for: ${periodStartMonth}/${periodStartDay}/${periodStartYear} - ${endPeriodTime.getMonth() + 1}/${endPeriodTime.getDate()}/${endPeriodTime.getFullYear()}`;
     const body = totalPeriodTime;
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
